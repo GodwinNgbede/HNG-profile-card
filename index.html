@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HNG profile card</title>
+  </head>
+  <body>
+    <article class="root-container" data-testid="test-profile-card">
+      <div class="container">
+        <!-- ================USER PHOTO, HEADING AND BIO============== -->
+        <div class="header-container">
+          <figure data-testid="test-user-avatar">
+            <img
+              src="./my avatar.png"
+              alt="Godwin Onah avatar"
+              data-testid="test-user-avatar"
+            />
+            <figcaption data-testid="test-user-avatar">
+              User Avatar icon
+            </figcaption>
+          </figure>
+          <header
+            aria-label="profile-summary"
+            class="profile-summary"
+            data-testid="test-user-name"
+          >
+            <h2 data-testid="test-user-name">Godwin onah</h2>
+            <p data-testid="test-user-bio">
+              I’m a passionate Frontend Developer who enjoys turning ideas into
+              interactive, user-friendly websites. I specialize in crafting
+              responsive interfaces using HTML, CSS, and JavaScript and I’m
+              constantly exploring modern frameworks like React to build clean,
+              accessible, and visually engaging experiences.
+            </p>
+          </header>
+        </div>
+        <!-- ================SOCIAL LINKS================== -->
+        <nav data-testid="test-user-social-links">
+          <h2 data-testid="test-user-name" class="my-contact">Contact Me</h2>
+          <ul data-testid="test-user-social-list">
+            <li data-testid="test-user-social-twitter">
+              <a href="https://x.com/_Slash01?t=Djt5MoDFCNoAtilPmthVRw&s=09"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+            </li>
+            <li data-testid="test-user-social-github">
+              <a href="https://github.com/GodwinNgbede"
+                ><i class="bi bi-github"></i
+              ></a>
+            </li>
+            <li data-testid="test-user-social-linkedIn">
+              <a href="www.linkedin.com/in/godwinonah87"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </article>
+  </body>
+</html>
