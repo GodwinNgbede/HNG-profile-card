@@ -35,6 +35,11 @@ article {
   border-radius: 1000px;
   object-fit: cover;
 }
+#profile-time {
+  margin-top: 12px;
+
+  font-weight: 700;
+}
 .header-container figcaption {
   display: flex;
   justify-content: center;
