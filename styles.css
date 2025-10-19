@@ -67,3 +67,9 @@ nav ul li {
 nav ul li a {
   color: black;
 }
+
+/* ======================= HOBBIES AND DISLIKES ================================== */
+.hoobies-dislikes {
+  display: flex;
+  justify-content: space-evenly;
+}
