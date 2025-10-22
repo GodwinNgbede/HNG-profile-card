@@ -12,7 +12,7 @@
   </head>
   <body>
     <article class="root-container" data-testid="test-profile-card">
-      <form action="#" method="#" data-testid="test-contact-page">
+      <form data-testid="test-contact-page" id="contact-form">
         <div class="form-container">
           <h2 class="about-heading">Contact Me</h2>
           <p data-testid="test-contact-name" class="about-me-name contact-me">
@@ -26,6 +26,7 @@
               data-testid="test-contact-name"
               type="text"
               id="full-name"
+              name="full-name"
               required
             />
           </div>
@@ -37,6 +38,7 @@
               data-testid="test-contact-email"
               type="email"
               id="user-email"
+              name="user-email"
               required
             />
           </div>
@@ -48,6 +50,7 @@
               data-testid="test-contact-subject"
               type="text"
               id="user-subject"
+              name="user-subject"
               required
             />
           </div>
@@ -59,14 +62,24 @@
               name="message"
               id="user-message"
               minlength="10"
+              name="user-message"
               required
             ></textarea>
           </div>
-          <p></p>
+          <p
+            class="alert-message"
+            id="alert-message"
+            data-testid="test-contact-success
+"
+          >
+            Congratulations, we have recieved your message!!!
+          </p>
           <button
             data-testid="test-contact-submit"
             type="submit"
             class="submit-button"
+            id="submit-button"
+            accesskey="s"
           >
             Send Message
           </button>
