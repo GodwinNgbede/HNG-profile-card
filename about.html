@@ -8,13 +8,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Godwin's HNG profile card</title>
+    <title>About Godwin</title>
   </head>
   <body>
     <article class="root-container" data-testid="test-profile-card">
       <div class="container">
         <!-- ================USER PHOTO, HEADING AND BIO============== -->
-        <div class="header-container">
+      <main data-testid="test-about-page">
+         <section data-testid="test-about-bio" class="about-bio">
+             <div class="header-container">
           <figure data-testid="test-user-avatar">
             <img
               src="./my avatar.png"
@@ -30,23 +32,41 @@
             class="profile-summary"
             data-testid="test-user-name"
           >
-            <h2 data-testid="test-user-name">Godwin onah</h2>
-            <p data-testid="test-user-bio">
+            <h2 data-testid="test-user-name">About me</h2>
+            <p data-testid="test-user-name" class="about-me-name">Godwin Onah-web developer</p>
+            <p data-testid="test-about-bio" class="about-me-bio about">
               I’m a passionate Frontend Developer who enjoys turning ideas into
               interactive, user-friendly websites. I specialize in crafting
               responsive interfaces using HTML, CSS, and JavaScript and I’m
               constantly exploring modern frameworks like React to build clean,
               accessible, and visually engaging experiences.
             </p>
-            <p data-testid="test-user-time" id="profile-time"></p>
+            
           </header>
         </div>
+         </section>
+
+         <section data-testid="test-about-goals" class="about-goals">
+            <h2 class="about-heading">Goals for the program</h2>
+            <ul>
+                <li class="about">Strengthen my understanding of JavaScript, React, and modern frontend development workflows.</li>
+                <li class="about">Learn to write clean, maintainable, and testable code.</li>
+                <li class="about">Build a solid portfolio piece that demonstrates my growth during the internship.</li>
+                <li class="about">Gain real-world experience by contributing to collaborative projects.</li>
+            </ul>
+         </section>
+         <section data-testid="test-about-confidence" class="about-confidence">
+            <h2 class="about-heading">Area of low confidence</h2>
+
+         </section>
+
         
       <div class="container-button" data-testid="test-user-buttons">
         <button><a href="index.html">Home</a></button>
         <button><a href="about.html">About Me</a></button>
         <button><a href="contact.html">Contact Us</a></button>
       </div>
+      </main>
     </article>
 
     <script src="index.js"></script>

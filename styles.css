@@ -106,6 +106,40 @@ nav ul li a {
   text-decoration: none;
 }
 
+/* ============================= ABOUT ME ==================================== */
+.about-me-name {
+  font-style: italic;
+  color: rgb(136, 134, 134);
+  margin-bottom: 8px;
+}
+.about {
+  border: 1px solid blue;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+.about:hover {
+  transform: translateX(-0.5rem);
+  box-shadow: 0px 0px 12px 0px rgba(99, 6, 242, 0.78);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(99, 6, 242, 0.78);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(99, 6, 242, 0.78);
+}
+.about-goals {
+  box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.about-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+.about-goals ul li {
+  list-style: none;
+}
+/* ====================== RESPONSIVENESS ================== */
 @media (max-width: 480px) {
   .header-container {
     flex-direction: column;
