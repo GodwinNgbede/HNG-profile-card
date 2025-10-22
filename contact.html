@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact page</title>
+  </head>
+  <body>
+    <article class="root-container" data-testid="test-profile-card">
+      <form action="#" method="#" data-testid="test-contact-page">
+        <div class="form-container">
+          <h2 class="about-heading">Contact Me</h2>
+          <p data-testid="test-contact-name" class="about-me-name contact-me">
+            Godwin Onah-web developer
+          </p>
+          <div class="contact-content about">
+            <label data-testid="test-contact-name" for="full-name"
+              >Full Name:</label
+            >
+            <input
+              data-testid="test-contact-name"
+              type="text"
+              id="full-name"
+              required
+            />
+          </div>
+          <div class="contact-content about">
+            <label data-testid="test-contact-email" for="user-email"
+              >Email Address:</label
+            >
+            <input
+              data-testid="test-contact-email"
+              type="email"
+              id="user-email"
+              required
+            />
+          </div>
+        </div>
+      </form>
+      <div class="container-button" data-testid="test-user-buttons">
+        <button><a href="about.html">&larr; Go to About</a></button>
+        <button><a href="index.html">Go to Home &rarr;</a></button>
+      </div>
+    </article>
+
+    <script src="index.js"></script>
+  </body>
+</html>
