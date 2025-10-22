@@ -40,6 +40,36 @@
               required
             />
           </div>
+          <div class="contact-content about">
+            <label data-testid="test-contact-subject" for="user-subject"
+              >Subject:</label
+            >
+            <input
+              data-testid="test-contact-subject"
+              type="text"
+              id="user-subject"
+              required
+            />
+          </div>
+          <div class="contact-content about">
+            <label data-testid=" test-contact-message" for="user-message"
+              >Message:</label
+            >
+            <textarea
+              name="message"
+              id="user-message"
+              minlength="10"
+              required
+            ></textarea>
+          </div>
+          <p></p>
+          <button
+            data-testid="test-contact-submit"
+            type="submit"
+            class="submit-button"
+          >
+            Send Message
+          </button>
         </div>
       </form>
       <div class="container-button" data-testid="test-user-buttons">
