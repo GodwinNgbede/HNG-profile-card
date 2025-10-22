@@ -146,6 +146,20 @@ nav ul li a {
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
+.about-future {
+  box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.about-extra {
+  box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 10px 0px -7px rgba(0, 0, 0, 0.35);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
 /* ====================== RESPONSIVENESS ================== */
 @media (max-width: 480px) {
   .header-container {
